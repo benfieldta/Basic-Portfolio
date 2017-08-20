@@ -1,0 +1,32 @@
+body {
+	background-color: #ffffff;
+}
+
+header {
+	background-color: #888;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	content: 20px 40px 20px 40px;
+}
+
+h2 {
+	background-color: #234;
+}
+
+img {
+	float: left;
+	margin: 22px;
+}
+
+p {
+	font-size: large;
+	background-color: #999;
+}
+
+h4 {
+	float: right;
+	background-color: #777;
+}
