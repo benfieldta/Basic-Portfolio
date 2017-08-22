@@ -1,57 +1,87 @@
 body {
-	background-color: #c3c4cc;
+	background-color: #d7d9e0;
 	margin: 0;
 }
 
 #links {
-	width: 100%;
-	height: 60px;
+	position: absolute; top: 0;
+	z-index: -1;
+	width: 78%;
+	height: 70px;
 	text-align: right;
 	background-color: white;
 	line-spacing: 40px;
+	font-size: 120%
 	color: grey;
+	padding-right: 550px;
+	padding-top: 20px;
+	border-bottom: 5px;
+	border-bottom-color: #ccc;
 }
 
 #name {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 200%;
+	font-size: 250%;
 	color: white;
-	width: 35%;
-	height: 80px;
+	width: 24%;
+	height: 65px;
 	text-align: center;
-	margin-left: 40px;
-	margin-top: 0px;
+	margin-left: 320px;
+	margin-bottom: 30px;
+	padding-top: 25px;
 }
 
+hr {
+    	display: block;
+    	height: 1px;
+    	border: 0;
+    	border-top: 1px 
+    	solid #ccc;
+    	margin: 1em 0;
+    	padding: 0;
+}
+
+hr2 {
+    	display: block;
+    	height: 8px;
+    	border: 0;
+    	border-top: 1px 
+    	solid #ccc;
+    	margin: 1em 0;
+    	padding: 0;
+}
 
 #about_me {
-	width: 500px;
-	height: 450px;
+	width: 650px;
+	height: 500px;
 	background-color: white;
 	padding: 20px;
+	margin-top: 90px;
 	margin-bottom: 30px;
-	margin-left: 30px;
+	margin-left: 320px;
 }
 
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-
 }
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	line-spacing:;
+	font-size: 120%;
 }
 
 #connect {
 	width: 255px;
-	height: 200px;
+	height: 175px;
 	background-color: white;
 	padding: 20px;
 	float: right;
-	margin-right:40px;
+	margin-right: 320px;
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h3 {
@@ -59,16 +89,19 @@ h3 {
 	color: #4aaaa5;
 }
 
-
 img {
 	float: left;
 	margin: 22px;
 }
 
 #footer {
+	position: absolute; bottom: 0px; 
 	clear: all;
+	width: 110%;
 	background-color: #666666;
 	text-align: center;
+	color: grey;
+	margin-right: 0;
 	padding: 40px;
 	border: 40px;
 	border-color: #4aaaa5;
